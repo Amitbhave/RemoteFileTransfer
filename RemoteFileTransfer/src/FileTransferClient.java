@@ -1,10 +1,6 @@
 import com.jcraft.jsch.ChannelSftp;
 
 /**
- * 
- */
-
-/**
  * @author amitb
  *
  */
