@@ -12,10 +12,6 @@ import com.jcraft.jsch.Session;
 import com.jcraft.jsch.SftpException;
 
 /**
- * 
- */
-
-/**
  * @author amitb
  *
  */
@@ -43,7 +39,7 @@ public class RemoteFileTransferService {
 			channel.connect();
 			sftpChannel = (ChannelSftp) channel;
 		} catch (JSchException e) {
-			// prblem connecting remote host
+			// problem connecting remote host
 			e.printStackTrace();
 		}
 
